@@ -4,6 +4,7 @@ body {
 	font-size: 18px;
 	/*color: var(--tg-theme-text-color);*/
 	/*background: var(--tg-theme-bg-color);*/
+	max-width: 650px;
     background: rgb(56,56,56);
     background: linear-gradient(355deg, rgba(56,56,56,1) 20%, rgba(34,34,34,1) 82%);
 }
