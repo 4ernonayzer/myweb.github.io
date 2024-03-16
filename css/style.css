@@ -2,13 +2,20 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 18px;
+    /*max-width: 650px;*/
 	/*color: var(--tg-theme-text-color);*/
 	/*background: var(--tg-theme-bg-color);*/
-	max-width: 650px;
-    background: rgb(56,56,56);
-    background: linear-gradient(355deg, rgba(56,56,56,1) 20%, rgba(34,34,34,1) 82%);
+    /*background: rgb(56,56,56);*/
+    /*background: linear-gradient(355deg, rgba(56,56,56,1) 20%, rgba(34,34,34,1) 82%);*/
 }
 
+
+.body-container{
+    max-width: 650px;
+    background: rgb(56,56,56);
+    background: linear-gradient(355deg, rgba(56,56,56,1) 20%, rgba(34,34,34,1) 82%);
+    min-height: 600px;
+}
 
 
 .head-container{
@@ -70,6 +77,6 @@ body {
 
 
 .average-container{
-    min-height: 500px;
+    /*height: 100%;*/
     padding-bottom: 40px;
 }
